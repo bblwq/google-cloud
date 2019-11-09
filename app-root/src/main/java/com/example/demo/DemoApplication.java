@@ -14,6 +14,6 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "hello world!";
+		return "Hello World! This app was built from github_bblwq_google-cloud triggered by app-root.";
 	}
 }
