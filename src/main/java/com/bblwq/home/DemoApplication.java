@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.bblwq.home;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,8 +12,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String hello() {
-		return "Hello World! This app was built from github_bblwq_google-cloud triggered by app-root.";
-	}
+ 	 @GetMapping("/")
+ 	 public String hello() {
+   		 return "hello world!";
+  	}
 }
