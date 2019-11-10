@@ -12,8 +12,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
- 	 @GetMapping("/")
- 	 public String hello() {
-   		 return "hello world!";
-  	}
+ 	@GetMapping("/")
+	public String hello() {
+		return "Hello world! This app was built by Cloud Build triggered by bblwq/google-cloud.";
+	}
 }
